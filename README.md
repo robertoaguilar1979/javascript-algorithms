@@ -1,3 +1,3 @@
 # javascript-algorithms
 
-this is a mix of commond algorithms.
+this is a mix of common algorithms.
