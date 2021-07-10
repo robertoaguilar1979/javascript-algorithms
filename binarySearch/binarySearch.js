@@ -12,13 +12,11 @@ let binarySearch = function (array, target) {
 
 
     if (potential === target) {
-      return `the index is:${middle} and the value found in the array is: ${potential}`;
-    }
-    else if (target < potential) {
+      return `the index is: ${middle} and the value found in the array is: ${potential}`;
+    } else if (target < potential) {
       right = middle - 1;
 
-    }
-    else {
+    } else {
       left = middle + 1;
     }
 
