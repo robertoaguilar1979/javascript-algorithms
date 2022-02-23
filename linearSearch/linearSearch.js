@@ -14,7 +14,8 @@ let linearSearch = function (array, target) {
       return `this is the index: ${i} the value: ${array[i]}`;
     }
   }
-  return -1;
+  return `value not found ${-1}`;
 };
 
 console.log(linearSearch(numbers, myValue));
+console.log(linearSearch(numbers, 31));
