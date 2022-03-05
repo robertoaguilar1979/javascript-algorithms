@@ -1,5 +1,6 @@
-let numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let target = 12;
+//O(n) time | O(n) space
+let numberList = [4, 7, 9, 12, 2, 1, 10];
+let target = 8;
 
 let findTwoSum = function (array, target) {
   let hash = {};
@@ -10,9 +11,9 @@ let findTwoSum = function (array, target) {
     if (potential in hash) {
       return [potential, number];
     } else {
-      hash[number] = potential;
+      hash[number] = true;
     }
-    //console.log(Object.entries(hash));
+    console.log(Object.entries(hash));
   }
 };
 

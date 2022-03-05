@@ -1,3 +1,4 @@
+//O(n) time | O(n) space
 let numbers = [];
 for (let i = 0; i <= 100; i++) {
   numbers.push(i);
