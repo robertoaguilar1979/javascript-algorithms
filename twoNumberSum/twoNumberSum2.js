@@ -16,7 +16,7 @@ let findTwoSum = function (array, target) {
     if (hash.has(difference)) {
       return [hash.get(difference), i];
     } else {
-      hash.set(currentNumber, true);
+      hash.set(currentNumber, currentNumber);
     }
 
     //console.log(iterator.next().value);
