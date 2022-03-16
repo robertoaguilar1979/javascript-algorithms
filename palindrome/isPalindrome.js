@@ -8,7 +8,7 @@ let isPalindrome = function (string) {
     reversedString = char + reversedString;
   }
 
-  return string === reversedString;
+  return string.toLowerCase() === reversedString.toLowerCase();
 };
 
 console.log(isPalindrome(name));
