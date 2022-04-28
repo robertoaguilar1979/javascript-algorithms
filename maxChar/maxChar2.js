@@ -32,4 +32,4 @@ let findMaxChar = function (string) {
     return maxChar; // returns the max char.
 }
 
-console.log(`this is the max character: ${findMaxChar(myString)}`); // returns the character with the most time it occurs. 
+console.log(`this is the highest occuring char: ${findMaxChar(myString)}`); // returns the character with the most time it occurs. 

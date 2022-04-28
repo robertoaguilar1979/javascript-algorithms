@@ -8,7 +8,9 @@ let value = 7;
 
 let findTwoSum = function (array, target) {
   let hash = new Map();
+
   const iterator = hash.entries();
+
   for (let i = 0; i <= array.length; i++) {
     let currentNumber = array[i];
     let difference = target - currentNumber;

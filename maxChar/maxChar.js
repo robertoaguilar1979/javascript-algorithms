@@ -25,7 +25,7 @@ let maxChar = function (string) {
 
     }
     console.log(hash); //prints out what's stored in the hash map
-    return `This is the highest occuring char in name: ${maxChar}`;
+    return `This is the highest occuring char: ${maxChar}`;
 
 }
 
