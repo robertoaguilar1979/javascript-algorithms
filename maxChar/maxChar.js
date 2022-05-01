@@ -9,26 +9,24 @@ let maxChar = function (string) {
     let max = -Infinity;
     let maxChar = "";
 
-    for (const char of string) {
+    for (let char of string) {
         if (hash[char]) {
-            hash[char]++
+            hash[char]++;
         } else {
             hash[char] = 1;
         }
     }
 
-    for (const char in hash) {
+    for (let char in hash) {
         if (hash[char] > max) {
             max = hash[char];
             maxChar = char;
         }
 
     }
-
-    return maxChar;
+    console.log(hash); //prints out what's stored in the hash map
+    return `This is the highest occuring char: ${maxChar}`;
 
 }
-
-
 
 console.log(maxChar(name));
