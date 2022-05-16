@@ -1,3 +1,5 @@
+//count vowels using regular expressions and the test method.
+
 let findVowels = "robertooe";
 let vowels = 0;
 
