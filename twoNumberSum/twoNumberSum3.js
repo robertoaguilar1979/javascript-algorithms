@@ -13,7 +13,7 @@ let findTwoSum = function (array, target) {
     } else {
       hash[number] = true;
     }
-    console.log(Object.entries(hash));
+    //console.log(Object.entries(hash));
   }
 };
 
