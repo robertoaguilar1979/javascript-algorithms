@@ -1,4 +1,4 @@
-let maxCharacterString = "rroobeerrtttocd";
+let string = "rroobeerrtttocd";
 
 
 let maxChar = function (string) {
