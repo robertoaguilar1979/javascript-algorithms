@@ -26,4 +26,4 @@ let maxChar = function (string) {
 
 }
 
-console.log(maxChar(maxCharacterString));
+console.log(maxChar(string));
